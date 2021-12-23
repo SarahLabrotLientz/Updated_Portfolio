@@ -1,0 +1,929 @@
+
+*/
+/***** Labrot-navbar ***************************/
+.labrot-rm-padding{
+    padding: 0 !important;
+}
+.labrot-brand-logo{
+    font-weight: 900;
+    font-size: 30px;
+    color: #585050;
+    /*text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);*/
+   /* animation-name: fade-slide-one-one;
+    animation-duration: 3s;*/
+}
+.labrot-rm-margin{
+    margin: 0 !important;
+}
+.section-padding{
+    padding-bottom: 20px;
+}
+.navbar.labrot-navbar{
+    margin-bottom: 0px;
+    border-radius: 0;
+    border: none;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    transition: .3s;
+    padding: 20px 40px;
+}
+.navbar.labrot-navbar.bgcolor{
+    padding: 0 40px;
+    background-color: rgb(252, 86, 210);
+    box-shadow: 0px 4px 9px -1px rgba(0,0,0,0.4);
+}
+.navbar.labrot-navbar .nav.navbar-nav li a.labrot-scroll-nav-a-color{
+    color: #222832;
+}
+.navbar.labrot-navbar .nav.navbar-nav li a.labrot-scroll-nav-a-color:hover{
+    box-shadow: inset 0px -4px 0px 0px #f867ca;
+    color: #f867ca;
+}
+.navbar.labrot-navbar .nav.navbar-nav li a.active.labrot-scroll-nav-a-color{
+    box-shadow: inset 0px -4px 0px 0px #f867ca;
+    color: #f867ca;
+}
+.nav-temp{
+    box-shadow: inset 0px -4px 0px 0px #f867ca;
+    color: #f867ca;
+}
+
+
+.navbar.labrot-navbar .nav.navbar-nav li a.active{
+    box-shadow: inset 0px -4px 0px 0px #eeeeee;
+    background-color: transparent; 
+    color: #1b1515;
+}
+.navbar.labrot-navbar .nav.navbar-nav li a {
+    text-align: center;
+    margin: 0 5px;
+    font-family: 'Lato', sans-serif;
+    color: #f3ebf1;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.navbar.labrot-navbar .nav.navbar-nav li:hover a{
+    transition: .5s;
+    box-shadow: inset 0px -4px 0px 0px #857777;
+    background-color: transparent; 
+}
+.navbar-brand .labrot-logo-img{
+    max-width: 150px;
+}
+/*.navbar.tms-navbar .navbar-header .navbar-brand{
+    padding: 10px 15px;
+}*/
+.labrot-toggle-btn{
+    background-color: #f867ca;  
+}
+.navbar-toggle .icon-bar{
+    background-color: #eee;
+}
+.navbar-fixed-top .navbar-collapse{
+    max-height: inherit;
+}
+.nav.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-collapse .labrot-collapse{
+    margin-top: 10px;
+}
+/*.navbar.labrot-navbar .nav.navbar-nav li:hover a.labrot-scroll-hover{
+    transition: .5s;
+    box-shadow: inset 0px -4px 0px 0px #0092CA;
+    background-color: transparent; 
+}
+
+.labrot-nav>li>a:focus, .labrot-nav>li>a:hover{
+    background-color: transparent;
+}
+
+/***********Home Section***********/
+
+.carousel.labrot-home-carousel .carousel-inner .carousel-caption.labrot-carousel-caption h3{
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    font-weight: 900;
+    font-size: 100px;
+    color: #f867ca;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    animation-name: fade-slide-one-one;
+    animation-duration: 3s;
+}
+@keyframes fade-slide-one-one {
+  0% {
+    position: absolute;
+    opacity: 0;
+  }
+  100% {
+    position: absolute;
+    opacity: 1;
+  }
+}
+.carousel-caption.custom-caption {
+    position: absolute;
+    font-family: 'PT Sans', sans-serif;
+    top: 0;
+    right: 0%;
+    bottom: 0px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+html,
+body,
+.carousel.labrot-home-carousel,
+.carousel-inner.labrot-carousel-inner,
+.carousel-inner.labrot-carousel-inner .item{
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgba(0,0,0,0.6);
+}
+
+.carousel.labrot-home-carousel{
+    background: linear-gradient(to left, #d5dedf, #57585a);
+    
+}
+.carousel-inner.labrot-carousel-inner .item:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    background: rgba(1,1,1,.2);
+}
+/*.item:nth-child(1) {
+    background: url('../images/head-img-22.jpg');
+}
+.item:nth-child(2) {
+    background: url('../images/head-img-22.jpg');
+    background: linear-gradient(to bottom, #36d1dc, #5b86e5);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgba(0,0,0,0.6);
+}
+.item:nth-child(3) {
+    position: relative;
+    background: url('../images/head-img-33.jpg');
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgba(0,0,0,0.6);
+}*/
+.carousel.labrot-home-carousel{
+    position: relative;
+}
+.carousel.labrot-home-carousel  .left.carousel-control, .carousel.labrot-home-carousel  .right.carousel-control{
+    background-image: none;
+}
+.labrot-home-carousel .carousel-indicators li{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #eeeeee;
+    border-radius: 10px;
+}
+.labrot-home-carousel .carousel-indicators .active{
+    background-color: #eeeeee;
+}
+.labrot-home-carousel .carousel-indicators{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+/*.carousel.labrot-home-carousel .carousel-control{
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    font-size: 10px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    opacity: .5;
+}*/
+.labrot-toogle-down{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.labrot-down-icon{
+    font-size: 50px;
+    color: #eeeeee;
+    cursor: pointer;
+    animation: downbtn 1.5s infinite;
+}
+@keyframes downbtn {
+    0% {
+        transform: translate(0, 0);
+    }
+    20% {
+        transform: translateY(10px);
+    }
+    40% {
+        transform: translate(0, 0);
+    }
+}
+/***** Home Section Over*******************/
+/****** Tms-about-section *****************************/
+.labrot-about-container{
+    position: relative;
+    display: table;
+}
+.labrot-about-detail-box{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    height: calc(100vh - 60px);
+}
+.labrot-section-ttl{
+    position: relative;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    color: #222831;
+    text-align: center;
+    margin: 0;
+    padding: 40px 0;
+}
+.labrot-section-ttl:after{
+    position: absolute;
+    bottom: 20px;left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: '';
+    background-color: #f867ca;
+    height: 3px;
+    width: 40px;
+}
+.labrot-about-dark-detail{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    color: #222831;
+    text-align: center;
+    font-weight: 600;
+    padding: 30px 80px;
+}
+.labrot-about-deep-detail{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #222831;
+    text-align: center;
+    font-weight: 400;
+    padding: 0 20px;
+    margin: 0;
+}
+.labrot-about-img{
+    position: relative;
+    display: inline-block;
+    background-image: url(../images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 60px);
+    min-width: 100%;
+}
+
+
+/***** Labrot portfolio *******/
+.labrot-portfolio-container{
+    position: relative;
+    margin-bottom: 20px;
+}
+.labrot-portfolio-item{
+    position: relative;
+}
+.labrot-portfolio-item:after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    transition: 0.3s;
+}
+.labrot-portfolio-item:hover:after{
+    background: rgba(235, 27, 190, 0.8);
+    height: 80%;
+    width: 80%;
+}
+.labrot-port-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto; 
+    filter: grayscale(100%);
+}
+.labrot-portfolio-item .labrot-port-hover-head{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    margin: 0 ;
+    z-index: 5;
+    color: #eeeeee;
+    font-weight: 600;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+}
+.labrot-portfolio-item .labrot-port-hover-sub-head{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    margin: 0 ;
+    z-index: 5;
+    color: #eeeeee;
+    font-weight: 600;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;   
+}
+.labrot-rm-padding:hover .labrot-port-hover-head, .labrot-rm-padding:hover .labrot-port-hover-sub-head, .labrot-rm-padding:hover .labrot-port-hover-icon{
+    visibility: visible;
+    opacity: 1;
+}
+.labrot-port-hover-icon{
+    position: absolute;
+    cursor: pointer;
+    margin: 0 ;
+    z-index: 5;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+    font-size: 30px;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s;
+}
+.labrot-port-hover-icon:hover{
+    font-size: 40px;
+    color: #eeeeee;
+}
+/*.labrot-port-hover-icon:active{
+    font-size: 40px;
+    color: #eeeeee;
+}*/
+/*.labrot-port-hover-icon:focus{    
+    font-size: 40px;
+    color: #eeeeee;
+}
+.labrot-port-hover-icon:active:focus{
+    font-size: 40px;
+    color: red;
+}*/
+/*.labrot-item-hover{
+    font-family: 'Lato', sans-serif;
+}*/
+/*.labrot-port-hover-sub-head{
+    font-family: 'Lato', sans-serif;
+    color: #eeeeee;
+    margin: 0;
+    font-weight: 400;
+    z-index: 5;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+}*/
+.labrot-port-all-btn{
+    margin-top: 20px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid  #222831;
+    background-color: #eeeeee;
+    color:  #222829;
+    transition: .2s;
+}
+.labrot-port-all-btn:hover{
+    border: 2px solid  #222831;
+    background-color:  #222831;
+    color: #eeeeee;
+}
+.labrot-port-all-btn:focus{
+    outline: none;
+    border: 2px solid  #222831;
+    background-color:  #222831;
+    color: #eeeeee;
+    box-shadow: inset 0px 0px 10px rgba(255,255,255, 0.05);
+    /*outline: none;
+    border: 2px solid  #222831;
+    background-color:  #eeeeee;
+    color: #222831;*/
+}
+.labrot-port-all-btn:active:focus, .labrot-port-all-btn:active{
+    outline: none;
+    border: 2px solid  #222831;
+    background-color:  #222831;
+    color: #eeeeee;
+    box-shadow: inset 0px 0px 10px rgba(255,255,255, 0.05);
+    transform: translateY(1px);
+}
+.labrot-btn-icon{
+    position: relative;
+}
+.labrot-portfolio-model-head{
+    position: relative;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 700;
+    color: #222832;
+}
+.labrot-close-btn{
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+}
+.labrot-modal-head{
+    font-family: 'Lato', sans-serif;
+    color: #222832;
+}
+.labrot-modal-body-detail{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #222832;
+}
+.labrot-modal-btn{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid #0092CA;
+    background-color: #eeeeee;
+    color: #0092CA;
+    padding: 5px 20px;
+    transition: .3s;
+}
+.labrot-modal-btn:hover{
+    border: 2px solid #f867ca;
+    background-color: #f867ca;
+    color: #eeeeee;
+}
+.labrot-modal-btn:focus{
+    outline: none;
+    border: 2px solid #f867ca;
+    background-color: #eeeeee;
+    color: #f867ca;
+}
+.labrot-modal-btn:active:focus, .labrot-modal-btn:active{
+    outline: none;
+    border: 2px solid #f867ca;
+    background-color: #f867ca;
+    color: #eeeeee;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0, 0.25);
+    transform: translateY(1px);
+    transition: .2s;
+}
+.modal-footer{
+    text-align: center;
+}
+
+
+
+/******* labrot contact section ******/ 
+.map-container{
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+}
+.contact-sub-box{
+    text-align: center;
+}
+.labrot-contact-icon{
+    font-size: 40px;
+    color: #f867ca;
+}
+.labrot-contact-box-head{
+    font-family: 'Lato', sans-serif;
+    color: #222832;
+    font-weight: 600;
+}
+.labrot-contact-detail{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #222832;
+}
+.gmap_canvas{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    z-index: 2;
+}
+.labrot-contact-form{
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(1,1,1,0.8);
+    text-align: center;
+    z-index: 5;
+}
+.labrot-form-input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #222832;
+    border-radius: 2px;
+    box-shadow: none;
+    background-color: #eeeeee;
+}
+.labrot-form-input:focus{
+    box-shadow: none;
+    outline: none;
+}
+.labrot-form-btn{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid #f867ca;
+    background-color: #eeeeee;
+    color: #0092CA;
+    padding: 5px 20px;
+    transition: .3s;
+}
+.labrot-form-btn:hover{
+    border: 2px solid #f867ca;
+    background-color: #f867ca;
+    color: #eeeeee;
+}
+.labrot-form-btn:focus{
+    outline: none;
+    border: 2px solid #f867ca;
+    background-color: #eeeeee;
+    color: #0092CA;
+}
+.labrot-form-btn:active:focus, .labrot-form-btn:active{
+    outline: none;
+    border: 2px solid #f867ca;
+    background-color: #f867ca;
+    color: #eeeeee;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0, 0.25);
+    transform: translateY(1px);
+    transition: .2s;
+}
+/*****Testimonial div *****/
+.labrot-testimonial-container{
+    position: relative;
+    display: block;
+    /*background: url(../images/newsletter.jpg);*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.labrot-testimonial-container:after{
+    content: '';
+    position: absolute;
+    top:0;left: 0;right: 0;bottom: 0;
+    height: 100%;
+    width: 100%;
+    /*background: rgba(1,1,1,0.3);*/
+    z-index: 0;
+}
+.labrot-slide-img{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; 
+    margin-right: -50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.labrot-testimonial-text{
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #eeeeee;
+    z-index: 15;
+}
+.carousel-caption.labrot-textimonial-caption{
+    position: relative;
+    display: block;
+    left: 0;right: 0;bottom: 0;
+    text-shadow: none;
+}
+.carousel-caption.labrot-textimonial-caption .labrot-name{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #222832;
+}
+.carousel-caption.labrot-textimonial-caption .labrot-text{
+    position: relative;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #222832;
+    width: 60%;
+}
+.carousel-caption.labrot-textimonial-caption .labrot-designation{
+    position: relative;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #222832;
+    z-index: 5;
+}
+.labrot-slider-img{
+    border-radius: 50%;
+}
+.carousel.testimonial_slider .carousel-control{
+    background: none;
+    color: #222832;
+    z-index: 10;
+}
+
+/* map css */
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/**** Social div*********/
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.sub-footer{
+    position: relative;
+    display: block;
+    background-color: rgba(34, 40, 50, 0.9);
+    padding: 20px 0;
+}
+/*---- Genral classes end -------*/
+/*Change icons size here*/
+.labrot-social-div{
+    position: relative;
+    text-align: center;
+}
+.social-icons .fa {
+    font-size: 1.8em;
+}
+.labrot-social-head{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #eeeeee;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.labrot-social-head:after{
+    content: '';
+    position: absolute;
+    margin: 0 auto;
+    top: 35%;right: 0;bottom: 0;left: 0;
+    background-color: #eeeeee;
+    height: 2px;
+    width: 50px;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease-in-out;
+}
+.list-inline li{
+    margin-bottom: 0;
+}
+.social-icons.icon-flat .fa{
+    border-radius: 0;
+}
+.social-icons .fa:hover, .social-icons .fa:active {
+    color: #FFF;
+    box-shadow: 1px 1px 3px #333; 
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active { 
+    transform: scale(1.2);
+}
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}  
+.social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;} 
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;} 
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;} 
+.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+
+
+
+/***** Footer Section *****/
+.labrot-footer{
+    position: relative;
+    display: block;
+    background-color: #222832;
+    text-align: center;
+    padding: 10px 0;
+}
+.labrot-footer-rights-txt{
+    margin: 0;
+    color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel.labrot-home-carousel .carousel-inner .carousel-caption.labrot-carousel-caption h3{
+        font-size: 50px;
+    }
+    .labrot-section-ttl{
+        position: relative;
+        display: block;
+        font-family: 'Lato', sans-serif;
+        color: #222831;
+        text-align: center;
+    }
+    .labrot-about-detail-box{
+        position: relative;
+        display: block;
+    }
+    .navbar.labrot-navbar{
+        background-color: #eeeeee;
+    }
+    .navbar.labrot-navbar .collapse.labrot-collapse{
+        background-color: #eeeeee;
+    }
+    .rm-padding{
+        padding: 0;
+    }
+    .navbar.labrot-navbar .nav.navbar-nav li:hover{
+        transition: .5s;
+        background-color: #0092CA;
+        color: #eeeeee;
+    }
+    .navbar.labrot-navbar .nav.navbar-nav li a {
+        color: #222832; 
+    }
+    .navbar.labrot-navbar .nav.navbar-nav li:hover a{
+        transition: inherit;
+        box-shadow: none;
+        color: #eeeeee;
+    }
+    /*.navbar.labrot-navbar .nav.navbar-nav li a.labrot-scroll-nav-a-color{
+        color: #222832;
+    }
+    .navbar.labrot-navbar .nav.navbar-nav li:hover a.labrot-scroll-nav-a-color{
+        color: #eeeeee;
+        box-shadow: none;
+    }*/
+    .labrot-about-dark-detail{
+        position: relative;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 26px;
+        color: #222831;
+        text-align: center;
+        font-weight: 600;
+        padding: 0 20px;
+    }
+    .labrot-about-deep-detail{
+        position: relative;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        color: #222831;
+        text-align: center;
+        font-weight: 400;
+        padding: 10px;
+    }
+    .labrot-about-detail-box{
+        height: inherit;
+    }
+    .navbar.labrot-navbar{
+        padding: 20px 10px;
+    }
+    .navbar.labrot-navbar.bgcolor{
+        padding: 5px 10px;
+    }
+    .navbar.labrot-navbar .nav.navbar-nav li a.active{
+        color: #222831;
+        box-shadow: none;
+    }
+    .navbar.labrot-navbar .nav.navbar-nav li:hover a.active{
+        color: #eeeeee;
+        box-shadow: none;   
+    }
+    .navbar.labrot-navbar .nav.navbar-nav li a.active.labrot-scroll-nav-a-color{
+        box-shadow: none;
+        color: #eeeeee;
+    }
+    .labrot-tab-box .labrot-services-icon{
+        position: relative;
+        font-size: 30px;
+        color: #eeeeee;
+    }
+    .labrot-team-body-box {
+        position: absolute;
+        padding: 0;
+        text-align: center;
+        opacity: 1;
+        z-index: 25;
+        background-color: rgba(255, 255, 255, 1);
+        width: 100%;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        transition: .4s;
+        left: 0;
+        bottom: -30%;
+    }
+    .labrot-team-body-box.team-body-box-modify{
+        bottom: -42%;
+    }
+    /*.navbar.labrot-navbar .navbar-header .navbar-brand{
+        padding: 10px 15px;
+    }*/
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .labrot-about-dark-detail{
+        padding: 0 80px;
+    }   
+    .labrot-about-deep-detail{
+        padding: 0 30px;
+    }
+    .carousel.labrot-home-carousel .carousel-inner .carousel-caption.labrot-carousel-caption h3{
+        font-size: 70px;
+    }
+    .labrot-about-detail-box{
+        height: inherit;
+    }
+    .navbar.labrot-navbar{
+        padding: 20px 40px;
+    }
+    .navbar.labrot-navbar.bgcolor{
+        padding: 0 40px;
+    }
+    /*.navbar.labrot-navbar .navbar-header .navbar-brand{
+        padding: 10px 15px;
+    }*/
+}
