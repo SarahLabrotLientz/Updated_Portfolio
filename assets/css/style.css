@@ -1,24 +1,15 @@
 
 */
 /***** Labrot-navbar ***************************/
-.labrot-rm-padding{
-    padding: 0 !important;
-}
-.labrot-brand-logo{
-    font-weight: 900;
-    font-size: 30px;
-    color: #585050;
-    /*text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);*/
-   /* animation-name: fade-slide-one-one;
-    animation-duration: 3s;*/
-}
+
+
 .labrot-rm-margin{
     margin: 0 !important;
 }
 .section-padding{
     padding-bottom: 20px;
 }
-.navbar.labrot-navbar{
+.navbar.navbarNav{
     margin-bottom: 0px;
     border-radius: 0;
     border: none;
@@ -29,7 +20,7 @@
     transition: .3s;
     padding: 20px 40px;
 }
-.navbar.labrot-navbar.bgcolor{
+.nav{
     padding: 0 40px;
     background-color: rgb(252, 86, 210);
     box-shadow: 0px 4px 9px -1px rgba(0,0,0,0.4);
@@ -37,11 +28,11 @@
 .navbar.labrot-navbar .nav.navbar-nav li a.labrot-scroll-nav-a-color{
     color: #222832;
 }
-.navbar.labrot-navbar .nav.navbar-nav li a.labrot-scroll-nav-a-color:hover{
+.navbar-collapse li a.labrot-scroll-nav-a-color:hover{
     box-shadow: inset 0px -4px 0px 0px #f867ca;
     color: #f867ca;
 }
-.navbar.labrot-navbar .nav.navbar-nav li a.active.labrot-scroll-nav-a-color{
+.navbar-collapse li a.active.labrot-scroll-nav-a-color{
     box-shadow: inset 0px -4px 0px 0px #f867ca;
     color: #f867ca;
 }
@@ -51,12 +42,12 @@
 }
 
 
-.navbar.labrot-navbar .nav.navbar-nav li a.active{
+.navbar-nav li a.active{
     box-shadow: inset 0px -4px 0px 0px #eeeeee;
     background-color: transparent; 
     color: #1b1515;
 }
-.navbar.labrot-navbar .nav.navbar-nav li a {
+.navbar-collapse li a {
     text-align: center;
     margin: 0 5px;
     font-family: 'Lato', sans-serif;
@@ -65,21 +56,21 @@
     font-weight: 600;
     padding: 20px 0;
 }
-.navbar.labrot-navbar .nav.navbar-nav li:hover a{
+.navbar-collapse li:hover a{
     transition: .5s;
-    box-shadow: inset 0px -4px 0px 0px #857777;
+    box-shadow: inset 0px -4px 0px 0px #cf61b4;
     background-color: transparent; 
 }
 .navbar-brand .labrot-logo-img{
     max-width: 150px;
 }
-/*.navbar.tms-navbar .navbar-header .navbar-brand{
+.navbar.labrot-navbar .navbar-header .navbar-brand{
     padding: 10px 15px;
-}*/
-.labrot-toggle-btn{
+}
+.button{
     background-color: #f867ca;  
 }
-.navbar-toggle .icon-bar{
+.navbar-toggler .navbar-toggler-icon{
     background-color: #eee;
 }
 .navbar-fixed-top .navbar-collapse{
@@ -91,7 +82,7 @@
 .navbar-collapse .labrot-collapse{
     margin-top: 10px;
 }
-/*.navbar.labrot-navbar .nav.navbar-nav li:hover a.labrot-scroll-hover{
+ .navbar.labrot-navbar .nav.navbar-nav li:hover a.labrot-scroll-hover{
     transition: .5s;
     box-shadow: inset 0px -4px 0px 0px #0092CA;
     background-color: transparent; 
@@ -253,7 +244,7 @@ body,
     }
 }
 /***** Home Section Over*******************/
-/****** Tms-about-section *****************************/
+/****** Labrot-about-section *****************************/
 .labrot-about-container{
     position: relative;
     display: table;
@@ -610,83 +601,8 @@ body,
     transform: translateY(1px);
     transition: .2s;
 }
-/*****Testimonial div *****/
-.labrot-testimonial-container{
-    position: relative;
-    display: block;
-    /*background: url(../images/newsletter.jpg);*/
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.labrot-testimonial-container:after{
-    content: '';
-    position: absolute;
-    top:0;left: 0;right: 0;bottom: 0;
-    height: 100%;
-    width: 100%;
-    /*background: rgba(1,1,1,0.3);*/
-    z-index: 0;
-}
-.labrot-slide-img{
-    position: absolute;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%; 
-    margin-right: -50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-.labrot-testimonial-text{
-    position: absolute;
-    margin: 0 auto;
-    top: 50%;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    color: #eeeeee;
-    z-index: 15;
-}
-.carousel-caption.labrot-textimonial-caption{
-    position: relative;
-    display: block;
-    left: 0;right: 0;bottom: 0;
-    text-shadow: none;
-}
-.carousel-caption.labrot-textimonial-caption .labrot-name{
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-    color: #222832;
-}
-.carousel-caption.labrot-textimonial-caption .labrot-text{
-    position: relative;
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: #222832;
-    width: 60%;
-}
-.carousel-caption.labrot-textimonial-caption .labrot-designation{
-    position: relative;
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    color: #222832;
-    z-index: 5;
-}
-.labrot-slider-img{
-    border-radius: 50%;
-}
-.carousel.testimonial_slider .carousel-control{
-    background: none;
-    color: #222832;
-    z-index: 10;
-}
+
+
 
 /* map css */
 .map-responsive{
@@ -721,7 +637,7 @@ body,
     background-color: rgba(34, 40, 50, 0.9);
     padding: 20px 0;
 }
-/*---- Genral classes end -------*/
+/*---- General classes end -------*/
 /*Change icons size here*/
 .labrot-social-div{
     position: relative;
@@ -770,11 +686,10 @@ body,
 .social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active { 
     transform: scale(1.2);
 }
-.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}  
-.social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;} 
+.social-icons .fa-instagram,.social-icons .fa-instagram-square{background-color:#37435e;}  
+.social-icons, .fa-github,.social-icons .fa-github-square{background-color:#cf2eba;} 
 .social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;} 
-.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;} 
-.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+
 
 
 

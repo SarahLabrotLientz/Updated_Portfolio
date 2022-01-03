@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sarah Labrot's Portfolio - Coding & Art </title>
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!-- Font Awesome CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
 	<!-- Animate CSS -->
@@ -26,7 +26,28 @@
 
 </head>
 <body>
-	<nav id="labrot_navbar_id" class="navbar navbar-fixed-top labrot-navbar">
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#home">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#about">About Me <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#portfolio">Portfolio</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#contact">Contact</a>
+			</li>
+			
+		  </ul>
+		</div>
+	  </nav>
+	<!-- <nav id="labrot_navbar_id" class="navbar navbar-fixed-top labrot-navbar">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle labrot-toggle-btn" data-toggle="collapse" data-target="#myNavbar">
 				<span class="icon-bar"></span>
@@ -43,7 +64,7 @@
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
-	</nav>
+	</nav> -->
 
 	<!-- Home Section -->
 	<div id="home"></div>
@@ -56,17 +77,17 @@
 		<div class="carousel-inner labrot-carousel-inner" role="listbox">
 			<div class="item active">  
 				<div class="carousel-caption custom-caption labrot-carousel-caption">
-				  <h3>I AM<br />A CODER</h3>
+				  <h3>Welcome<br />to</h3>
 				</div>
 			</div>
 			<div class="item"> 
 				<div class="carousel-caption custom-caption labrot-carousel-caption">
-					<h3>I AM<br />AN ARTIST</h3>
+					<h3>Sarah<br />Labrot's</h3>
 				</div>
 			</div>
 			<div class="item"> 
 				<div class="carousel-caption custom-caption labrot-carousel-caption">
-				  <h3>I AM<br />A COPYWRITER</h3>
+				  <h3>Portfolio<br />Page</h3>
 				</div>
 			</div>
 		</div>
@@ -388,57 +409,6 @@
 
 	
 	
-	<!-- Testimonail Div -->
-	<div class="labrot-testimonial-container">
-		<div class="container">
-			<div class="row">
-			<h2 class="labrot-section-ttl labrot-section-ttl-margin">What My Clients Say</h2>
-				<div id="carousel-example-generic" class="carousel testimonial_slider slide" data-ride="carousel">
-					<!-- Indicators -->
-					<!-- <ol class="carousel-indicators">
-						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					</ol> -->
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner" role="listbox">
-						<div class="item active">
-							<div class="text-center">
-								<img src="assets/images/testimonial-pic.png" class="labrot-slider-img" alt="...">
-							</div>
-							<div class="carousel-caption labrot-textimonial-caption">
-								<p class="labrot-text">
-									Sarah is great at art
-								</p>
-								<h4 class="labrot-name">Pablo Picaso</h4>   
-								<p class="labrot-designation">Scientist</p>
-							</div>
-						</div>
-						<div class="item	">
-							<div class="text-center">
-								<img src="assets/images/testimonial-pic.png" class="labrot-slider-img" alt="...">
-							</div>
-							<div class="carousel-caption labrot-textimonial-caption">
-								<p class="labrot-text">
-									Sarah is great at code
-								</p>
-								<h4 class="labrot-name">Louis Lane</h4>   
-								<p class="labrot-designation">Reporter</p>
-							</div>
-						</div>
-						<div class="item">
-							<div class="text-center">
-								<img src="assets/images/testimonial-pic.png" class="labrot-slider-img" alt="...">
-							</div>
-							<div class="carousel-caption labrot-textimonial-caption">
-								<p class="labrot-text">
-									Sarah is great at copywriting.
-								</p>
-								<h4 class="labrot-name">Everyone</h4>   
-								<p class="labrot-designation">Chicago peeps</p>
-							</div>
-						</div>
-					</div>
 					<!-- Controls -->
 					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -457,38 +427,8 @@
 
 
 	<!-- Labrot-contact  section-->
-	<div id="contact"></div>
-	<div class="container">
-		<div class="row">
-		<div class="col-md-12 col-sm-12">
-			<h2 class="labrot-section-ttl labrot-section-ttl-margin">Contact Me</h2>
-			<div class="col-md-4 col-sm-4">
-				<div class="contact-sub-box">
-					<i class="fa fa-mobile labrot-contact-icon" aria-hidden="true"></i>
-					<h4 class="labrot-contact-box-head">Call Me</h4>
-					<p class="labrot-contact-detail">(912)704-3439</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-4">
-				<div class="contact-sub-box">
-					<i class="fa fa-map-marker labrot-contact-icon" aria-hidden="true"></i>
-					<h4 class="labrot-contact-box-head">Address</h4>
-					<p class="labrot-contact-detail">Labrot Art, LLC.<br>
-						*****Ave,<br>
-						Savannah,GA<br>
-						United States - 31406
-					</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-4">
-				<div class="contact-sub-box">
-					<i class="fa fa-envelope-o labrot-contact-icon" aria-hidden="true"></i>
-					<h4 class="labrot-contact-box-head">Email Me</h4>
-					<p class="labrot-contact-detail">sarah.labrot@gmail.com</p>
-				</div>
-			</div>
-		</div>
-		</div>
+
+		<div id="contact">
 		<div class="row">
 		<div class="container-fluid">
 		<div class="map-responsive">
@@ -510,7 +450,7 @@
 			</div>
 		</div>
 	</div>
-	
+</div>
 	<div class="clearfix"></div>
 
 	<!-- Social Div -->
@@ -522,9 +462,9 @@
 					<div class="labrot-social-div">
 						<p class="labrot-social-head">Social Contacts</p>
 						<ul class="social-icons icon-zoom list-unstyled list-inline"> 
-							<li> <a href="#"><i class="fa fa-facebook"></i></a></li> 
-							<li> <a href="#"><i class="fa fa-linkedin"></i></a></li> 
-							<li> <a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li> <a href="https://www.instagram.com/labrot_art/"><i class="fa fa-instagram"></i></a></li> 
+							<li> <a href="https://www.linkedin.com/in/labrot/"><i class="fa fa-linkedin"></i></a></li> 
+							<li> <a href="https://github.com/SarahLabrotLientz"><i class="fa fa-github"></i></a></li> 
 						
 						</ul>
 					</div>
