@@ -1,2 +1,7 @@
 # Updated_Portfolio
-Sarah Labrot's updated portfolio featuring project 1 and 2 exemplary homework assignments. 
+Sarah Labrot's updated portfolio with mobile responsive features, animation, and a downloadable resume. 
+
+
+
+![Portfolio Preview](assets/images/screenshot.png)
+
