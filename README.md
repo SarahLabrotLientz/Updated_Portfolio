@@ -12,3 +12,5 @@ URL to live website: https://sarahlabrotlientz.github.io/Updated_Portfolio/
 
 ![Portfolio Preview](assets/images/screenshot.png)
 
+
+![Portfolio Preview2](assets/images/screenshot2.png)
