@@ -1,0 +1,18 @@
+.navbar.is-link {
+    background-color: black
+}
+
+.hero.is-info {
+    background-color: black;
+}
+
+.animate__animated.animate__lightSpeedInRight {
+    --animate-duration: 7s;
+    --animate-delay: 8s;
+  }
+  
+.section-heading {
+    display: flex;
+    justify-content: center;
+}
+
