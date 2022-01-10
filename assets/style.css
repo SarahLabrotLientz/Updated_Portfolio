@@ -31,3 +31,13 @@ h6 {
 font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Quicksand', sans-serif;
 }
+
+.card-image {
+    
+        opacity: 100;
+    }
+
+    .card-image img:hover {
+    
+        opacity: .5;
+    }
