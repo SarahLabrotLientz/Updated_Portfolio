@@ -1,10 +1,13 @@
 .navbar.is-link {
-    background-color: black
+    background-color: hsl(0, 64%, 48%)
+}
+.navbar-menu {
+    background-color: seagreen;
+}
+.hero.is-info {
+    background-color: seagreen;
 }
 
-.hero.is-info {
-    background-color: black;
-}
 
 .animate__animated.animate__lightSpeedInRight {
     --animate-duration: 7s;
