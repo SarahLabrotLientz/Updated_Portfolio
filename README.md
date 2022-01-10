@@ -1,5 +1,5 @@
 # Updated_Portfolio
-Welcome to my updated portfolio with mobile responsive features, animation, and a downloadable resume. Additional features include links to my LinkedIn, Github and Instagram accounts. 
+Welcome to my updated portfolio with mobile responsive features, animation, and a downloadable resume. Additional features include links to my favorite code projects, Linkedin profile, and Github page. 
 
 
 
@@ -13,3 +13,5 @@ URL to live website: https://sarahlabrotlientz.github.io/Updated_Portfolio/
 Technologies Used: HTML, CSS, Bulma
 
 License: MIT
+
+Contact me: Sarah.Labrot@gmail.com
