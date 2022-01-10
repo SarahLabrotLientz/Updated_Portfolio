@@ -10,3 +10,6 @@ URL to live website: https://sarahlabrotlientz.github.io/Updated_Portfolio/
 ![Portfolio Preview](SS.png)
 
 
+Technologies Used: HTML, CSS, Bulma
+
+License: MIT
