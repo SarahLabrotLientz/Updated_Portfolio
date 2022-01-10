@@ -8,6 +8,10 @@
     background-color: seagreen;
 }
 
+.icon {
+    
+    justify-content: center;
+}
 
 .animate__animated.animate__lightSpeedInRight {
     --animate-duration: 7s;
